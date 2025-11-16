@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Vampire Survivors – Steering Behaviors</title>
+
+  <!--
+    Page principale du jeu.
+    Elle charge la librairie p5.js puis tous les fichiers JavaScript du projet.
+  -->
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #eee;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #defaultCanvas0 {
+      border: 2px solid #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vampire Survivors – IA & Steering Behaviors</h1>
+
+  <!--
+    On peut aussi utiliser les fichiers p5.min.js fournis dans le ZIP du prof.
+    Ici j'utilise le CDN pour simplifier.
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+
+  <!-- Fichiers de classes -->
+  <script src="vehicle.js"></script>
+  <script src="player.js"></script>
+  <script src="enemy.js"></script>
+  <script src="projectile.js"></script>
+  <script src="obstacle.js"></script>
+  <script src="snake.js"></script>
+
+  <!-- Logique principale du jeu -->
+  <script src="sketch.js"></script>
+</body>
+</html>
