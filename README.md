@@ -1,7 +1,7 @@
 # Projet EMSI Rabat 2025/2026 – Jeu inspiré de *Vampire Survivors*
 
-**Étudiant :** _[Ton nom]_  
-**Enseignant :** Michel Buffa (micbuffa)  
+**Étudiant :** _[saidi youssef]_  
+**Enseignant :** Michel Buffa PS 
 **Matière :** IA / Steering Behaviors – EMSI Rabat 2025/2026  
 
 ---
@@ -16,7 +16,7 @@ Ce projet est un petit jeu 2D inspiré de **Vampire Survivors** :
 - Un boss de type **Snake** (serpent composé de segments) apparaît après un certain score.
 - Tous les objets qui se déplacent utilisent des **steering behaviors** (forces, vitesse, accélération), comme vus en cours.
 
-🎯 **Objectif pédagogique :**  
+ **Objectif pédagogique :**  
 Montrer que je maîtrise les comportements vus avec micbuffa (**seek, flee, wander, arrive, separation, obstacle avoidance**, etc.) ainsi que le **pattern de conception Composite** (utilisé pour le Snake).
 
 ---
